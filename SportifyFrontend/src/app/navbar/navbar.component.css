@@ -1,0 +1,60 @@
+.nav-link
+{
+    margin: 2vh;
+    margin-right: 3vw;
+    transition: all 0.3s ease;
+    color: #f5f5f5;
+    max-width: 90px;    
+    text-align: center;
+}
+
+
+.extra_space
+{
+    width:200px ;
+}
+.navbar-brand:hover
+{
+    /* color:  rgb(141, 236, 218); */
+    color: #000;
+
+}
+.navbar-toggler-icon
+{
+    color: aqua;
+    background-color: red;
+}
+.img2{
+    position: relative;
+    height: 8vw;
+    box-shadow: 0 5px 15px 10px;
+    width: 8vw;
+    min-height: 100px;
+    min-width: 100px;
+    float: left;
+    border-radius:50%;
+
+      background-color: transparent;
+}
+button
+{
+    border: none;
+    background-color: transparent;
+}
+.navbar
+{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+}
+*
+{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-family: Acquire;
+}
+.nav-link:hover{
+    box-shadow: 0 5px 15px 7px rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
